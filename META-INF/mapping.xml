@@ -1,0 +1,16 @@
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" version="">
+
+    <description>XML IT Student Mapping </description>
+    <entity class="ITStudent" >
+        <table name="it" />
+        <attributes>
+            <id name="id">
+                <generated-value strategy="AUTO"/>
+            </id>
+            <basic firstname ="firstName"/>
+            column
+            <basic name="age"/>
+            <basic name="gpa"/>
+        </attributes>
+    </entity>
+</entity-mappings>
